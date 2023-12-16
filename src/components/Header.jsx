@@ -14,6 +14,8 @@ const Header = () => {
           <li><Link to={'/authors'}>Authors</Link></li>
           <li><Link to={'/logout'}>Log Out</Link></li>
         </ul>
+
+        <button className='nav-toggle-button'></button>
       </div>
     </nav>
   )
