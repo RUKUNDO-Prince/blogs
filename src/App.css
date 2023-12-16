@@ -36,4 +36,97 @@ html {
 
 body {
     background: var(--color-bg);
+    font-size: 16px;
+    color: var(--color-gray-700);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-gray-700);
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-gray-900);
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.9rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    line-height: 1.25;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+h5 {
+    line-height: 1.4;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+section {
+    margin-top: 8rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1800px;
+}
+
+.btn {
+    display: inline-block;
+    width: fit-content;
+    padding: .6rem 1.2rem;
+    border-radius: var(--border-radius-2);
+    background: var(--color-white);
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+    background: #000;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-category {
+    background: var(--color-bg);
+    color: var(--color-primary);
+    font-size: .85rem;
+    font-weight: 400;
+}
+
+.btn-sm {
+    font-size: .9rem;
+    padding: .4rem .8rem;
+    font-weight: 500;
+}
+
+.btn-danger {
+    background: var(--color-danger);
+    color: var(--color-white);
+}
+
+.btn:hover {
+    background: var(--color-gray-900);
+    color: var(--color-white);
 }
