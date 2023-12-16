@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FaBarsStaggered } from "react-icons/fa6";
 
 const Header = () => {
   return (
@@ -15,7 +16,9 @@ const Header = () => {
           <li><Link to={'/logout'}>Log Out</Link></li>
         </ul>
 
-        <button className='nav-toggle-button'></button>
+        <button className='nav-toggle-button'>
+          <FaBarsStaggered />
+        </button>
       </div>
     </nav>
   )
