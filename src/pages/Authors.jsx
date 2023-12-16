@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Author = () => {
+const Authors = () => {
   return (
     <div>
-      Author
+      Authors
     </div>
   )
 }
 
-export default Author
+export default Authors

@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 
 import Home from '../pages/Home'
 import PostDetail from '../pages/PostDetail'
-import Author from '../pages/Author'
+import Authors from '../pages/Authors'
 import AuthorPosts from '../pages/AuthorPosts'
 import CategoryPosts from '../pages/categoryPosts'
 import CreatePosts from '../pages/createPosts'
@@ -28,19 +28,19 @@ const Router = () => {
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/' element={<Author />} />
-          <Route path='/' element={<AuthorPosts />} />
-          <Route path='/' element={<CategoryPosts />} />
-          <Route path='/' element={<CreatePosts />} />
-          <Route path='/' element={<Dashboard />} />
+          <Route path='/authors' element={<Authors />} />
+          <Route path='/posts/user/:id' element={<AuthorPosts />} />
+          <Route path='/posts/categories/:category' element={<CategoryPosts />} />
+          <Route path='/create' element={<CreatePosts />} />
+          <Route path='/myposts/:id' element={<Dashboard />} />
           <Route path='/' element={<DeletePost />} />
-          <Route path='/' element={<EditPost />} />
-          <Route path='/' element={<ErrorPage />} />
-          <Route path='/' element={<Login />} />
-          <Route path='/' element={<Logout />} />
-          <Route path='/' element={<PostDetail />} />
-          <Route path='/' element={<Register />} />
-          <Route path='/' element={<UserProfile />} />
+          <Route path='/posts/:id/edit' element={<EditPost />} />
+          <Route path='*' element={<ErrorPage />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/logout' element={<Logout />} />
+          <Route path='/posts/:id' element={<PostDetail />} />
+          <Route path='/register' element={<Register />} />
+          <Route path='/profile/:id' element={<UserProfile />} />
         </Routes>
         <Footer />
       </BrowserRouter>     
