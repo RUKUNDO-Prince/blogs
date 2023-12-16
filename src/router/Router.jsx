@@ -9,8 +9,8 @@ import Home from '../pages/Home'
 import PostDetail from '../pages/PostDetail'
 import Author from '../pages/Author'
 import AuthorPosts from '../pages/AuthorPosts'
-import categoryPosts from '../pages/categoryPosts'
-import createPosts from '../pages/createPosts'
+import CategoryPosts from '../pages/categoryPosts'
+import CreatePosts from '../pages/createPosts'
 import Dashboard from '../pages/Dashboard'
 import DeletePost from '../pages/DeletePost'
 import EditPost from '../pages/EditPost'
@@ -28,6 +28,19 @@ const Router = () => {
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/' element={<Author />} />
+          <Route path='/' element={<AuthorPosts />} />
+          <Route path='/' element={<CategoryPosts />} />
+          <Route path='/' element={<CreatePosts />} />
+          <Route path='/' element={<Dashboard />} />
+          <Route path='/' element={<DeletePost />} />
+          <Route path='/' element={<EditPost />} />
+          <Route path='/' element={<ErrorPage />} />
+          <Route path='/' element={<Login />} />
+          <Route path='/' element={<Logout />} />
+          <Route path='/' element={<PostDetail />} />
+          <Route path='/' element={<Register />} />
+          <Route path='/' element={<UserProfile />} />
         </Routes>
         <Footer />
       </BrowserRouter>     
