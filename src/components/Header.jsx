@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FaBarsStaggered } from "react-icons/fa6";
+import { HiMiniBars3BottomLeft } from "react-icons/hi2";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Header = () => {
   return (
@@ -17,7 +18,8 @@ const Header = () => {
         </ul>
 
         <button className='nav-toggle-button'>
-          <FaBarsStaggered />
+          <HiMiniBars3BottomLeft />
+          <AiOutlineClose />
         </button>
       </div>
     </nav>
