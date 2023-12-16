@@ -33,14 +33,14 @@ const Router = () => {
           <Route path='/posts/categories/:category' element={<CategoryPosts />} />
           <Route path='/create' element={<CreatePosts />} />
           <Route path='/myposts/:id' element={<Dashboard />} />
-          <Route path='/' element={<DeletePost />} />
+          {/* <Route path='/' element={<DeletePost />} /> */}
           <Route path='/posts/:id/edit' element={<EditPost />} />
-          <Route path='*' element={<ErrorPage />} />
           <Route path='/login' element={<Login />} />
           <Route path='/logout' element={<Logout />} />
           <Route path='/posts/:id' element={<PostDetail />} />
           <Route path='/register' element={<Register />} />
           <Route path='/profile/:id' element={<UserProfile />} />
+          <Route path='*' element={<ErrorPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>     
