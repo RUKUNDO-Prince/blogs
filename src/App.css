@@ -193,7 +193,7 @@ footer {
 .footer-categories {
     display: flex;
     align-items: center;
-    gap: 1.4rem;
+    gap: 2.4rem;
     margin-bottom: 4rem;
     flex-wrap: wrap;
     justify-content: center;
