@@ -151,3 +151,14 @@ nav {
     align-items: center;
     height: 100%;
 }
+
+.nav-logo h3 {
+    color: var(--color-white);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.nav-logo h3 span {
+    color: var(--color-light);
+    
+}
