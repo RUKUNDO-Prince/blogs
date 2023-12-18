@@ -185,7 +185,7 @@ nav {
 
 /* FOOTER */
 footer {
-    background: var(--color-gray-700);
+    background: var(--color-gray-900);
     margin-top: 8rem;
     padding-top: 6rem;
 }
@@ -201,7 +201,7 @@ footer {
 
 .footer-categories li a {
     color: var(--color-white);
-    background: var(--color-gray-500);
+    background: var(--color-gray-700);
     padding: .6rem 1.4rem;
     border-radius: var(--border-radius-2);
     transition: var(--transition);
