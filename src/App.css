@@ -188,5 +188,15 @@ footer {
     background: var(--color-gray-700);
     margin-top: 8rem;
     padding-top: 6rem;
-    
+}
+
+.footer-categories {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    margin-bottom: 4rem;
+}
+
+.footer-categories li a {
+    color: var(--color-white);
 }
