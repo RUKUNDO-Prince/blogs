@@ -6,7 +6,7 @@ import { AiOutlineClose } from "react-icons/ai";
 const Header = () => {
   return (
     <nav>
-      <div className="contaner nav-container">
+      <div className="container nav-container">
         <Link className='nav-logo' to={'/'}>
           <h3>Prince <span>Dev</span></h3>
         </Link>
