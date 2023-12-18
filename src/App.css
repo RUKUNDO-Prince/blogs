@@ -182,3 +182,11 @@ nav {
     color: var(--color-white);
     display: none;
 }
+
+/* FOOTER */
+footer {
+    background: var(--color-gray-700);
+    margin-top: 8rem;
+    padding-top: 6rem;
+    
+}
