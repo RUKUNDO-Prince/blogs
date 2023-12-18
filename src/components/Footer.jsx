@@ -19,6 +19,10 @@ const Footer = () => {
         <li><Link to={'/posts/categories/Movie'}>Movie</Link></li>
         <li><Link to={'/posts/categories/Music'}>Music</Link></li>
       </ul>
+
+      <div className="footer-copyright">
+        <small> &copy; Copyright All Rights Reserved || Prince 2024</small>
+      </div>
     </footer>
   )
 }
