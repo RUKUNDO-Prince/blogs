@@ -195,8 +195,19 @@ footer {
     align-items: center;
     gap: 1.4rem;
     margin-bottom: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer-categories li a {
     color: var(--color-white);
+    background: var(--color-gray-500);
+    padding: .6rem 1.4rem;
+    border-radius: var(--border-radius-2);
+    transition: var(--transition);
+}
+
+.footer-categories li a:hover {
+    background: var(--color-white);
+    color: var(--color-gray-900);
 }
