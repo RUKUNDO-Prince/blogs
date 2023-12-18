@@ -172,6 +172,10 @@ nav {
     color: var(--color-white);
 }
 
+.nav-menu li a:hover {
+    color: var(--color-light);
+}
+
 .nav-toggle-button {
     background: transparent;
     color: var(--color-white);
