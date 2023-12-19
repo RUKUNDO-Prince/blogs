@@ -4,7 +4,7 @@ import AuthorImage from '../assets/a1.jpg'
 
 const PostAuthor = () => {
   return (
-    <Link to={`/posts/user/:id`}>
+    <Link to={`/posts/user/:id`} className='post-author'>
       <div className="post-author-image">
         <img src={AuthorImage} alt="image" />
       </div>

@@ -276,3 +276,10 @@ footer {
     margin-top: 2rem;
     justify-content: space-between;
 }
+
+.post-author {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex: start;
+}
