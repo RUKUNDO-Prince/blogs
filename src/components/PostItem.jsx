@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import PostAuthor from ''
+import PostAuthor from '../components/PostAuthor'
 
 const PostItem = ({ postId, Image, authorId, category, title, des }) => {
   return (
