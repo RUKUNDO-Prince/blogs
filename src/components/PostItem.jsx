@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PostItem = ({ Image,  }) => {
+const PostItem = ({ Image, authorId, category, title, des }) => {
   return (
     <article className='post'>
       <div className="post-image">
