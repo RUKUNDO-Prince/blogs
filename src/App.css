@@ -219,3 +219,14 @@ footer {
     border-top: 1px solid var(--color-light);
     font-weight: 300;
 }
+
+/* ERROR PAGE */
+.error-center {
+    text-align: center;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
