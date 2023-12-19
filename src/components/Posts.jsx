@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { DummyPosts } from '../data/data'
+import PostItems from './PostItems'
 
 const Posts = () => {
     const [posts, setPosts] = useState(DummyPosts)
