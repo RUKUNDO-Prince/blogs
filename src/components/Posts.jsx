@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { DummyPosts } from '../data/data'
 
 const Posts = () => {
+    const [posts, setPosts] = useState(DummyPosts)
+
   return (
-    <section>
-      <h1>Posts</h1>
+    <section className='posts'>
+      {
+        posts.map(() => <PostItem />)
+      }
     </section>
   )
 }
