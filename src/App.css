@@ -237,3 +237,17 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 4rem;
 }    
+
+.post {
+    background: var(--color-white);
+    padding: 1rem;
+    border-radius: var(--border-radius-4);
+    padding-bottom: 2rem;
+    transition: var(--transition);
+    cursor: pointer;
+    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.post:hover {
+    box-shadow: none;
+}
