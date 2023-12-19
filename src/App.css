@@ -249,7 +249,7 @@ footer {
 
 .post:hover {
     box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.1);
-a}
+}
 
 .post-image {
     border-radius: var(--border-radius-3);
