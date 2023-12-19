@@ -251,3 +251,13 @@ footer {
 .post:hover {
     box-shadow: none;
 }
+
+.post-image {
+    border-radius: var(--border-radius-3);
+    overflow: hidden;
+    height: 16rem;
+}
+
+.post-image img {
+    aspect-ratio: 1/1;
+}
