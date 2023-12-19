@@ -262,6 +262,11 @@ footer {
     aspect-ratio: 1/1;
 }
 
+.post-image img {
+    height: 100%;
+    
+}
+
 .post-content {
     margin-top: 1.5rem;
 }
