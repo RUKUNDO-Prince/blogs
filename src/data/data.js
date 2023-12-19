@@ -1,5 +1,4 @@
 // HeadPost-posts-Data...................
-// import blogImage1 from '../../src/assets/1.jpg'
 export const HeadPost =[
     {
         id: 1,
