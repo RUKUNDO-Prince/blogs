@@ -8,7 +8,9 @@ const Posts = () => {
   return (
     <section className='posts'>
       {
-        posts.map(({Image, authorId, category, title, des}, index) => <PostItem key={index} Image={Image} category={category} authorId={authorId} title={title} des={des} />)
+        posts.map(({Image, authorId, category, title, des}, index) => 
+            <PostItem key={index} Image={Image} category={category} authorId={authorId} title={title} des={des} />
+        )
       }
     </section>
   )
