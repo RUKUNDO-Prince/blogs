@@ -1,10 +1,15 @@
 import React from 'react'
+import PostAuthor from '../components/PostAuthor'
 
 const PostDetail = () => {
   return (
-    <div>
-      PostDetail
-    </div>
+    <section>
+      <div className="container post-detail-container">
+        <div className="post-detail-top">
+          <PostAuthor />
+        </div>
+      </div>
+    </section>
   )
 }
 
