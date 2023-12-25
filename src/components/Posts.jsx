@@ -7,6 +7,9 @@ const Posts = () => {
 
   return (
     <section className="posts">
+      <div className="header-post">
+        <div className="container-head-post"></div>
+      </div>
       {posts.length > 0 ? (
         <div className="container posts-container">
           {posts.map(({ id, Image, authorId, category, title, des }, index) => (

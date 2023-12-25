@@ -7,6 +7,7 @@ const CreatePosts = () => {
 
   return (
     <section className="category-posts">
+      <h1 className="page-title">Category Posts</h1>
       {posts.length > 0 ? (
         <div className="container category-posts-container">
           {posts.map(({ id, Image, authorId, category, title, des }, index) => (
