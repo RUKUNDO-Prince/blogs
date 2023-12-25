@@ -7,7 +7,7 @@ const AuthorPosts = () => {
 
   return (
     <section className="author-posts">
-      
+      <h1 className="page-title">Author Posts</h1>
       {posts.length > 0 ? (
         <div className="container author-posts-container">
           {posts.map(({ id, Image, authorId, category, title, des }, index) => (
