@@ -1,5 +1,5 @@
 // HeadPost-posts-Data...................
-export const HeadPost =[
+export const headPost =[
     {
         id: 1,
         Image: blogImage1,
