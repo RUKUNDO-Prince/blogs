@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import { DummyPosts } from "../data/data";
 import PostItem from "./PostItem";
+import HeadPost from "./HeadPost";
 
 const Posts = () => {
   const [posts, setPosts] = useState(DummyPosts);
 
   return (
     <section className="posts">
-      <div className="header-post">
-        <div className="container-head-post"></div>
+      <div className="header-post-aria">
+          <HeadPost />
       </div>
       {posts.length > 0 ? (
         <div className="container posts-container">
